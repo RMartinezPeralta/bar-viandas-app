@@ -1,0 +1,19 @@
+.product {
+  width: 300px;
+}
+
+.title {
+  font-size: larger;
+}
+
+.description {
+  font-size: large;
+}
+
+.price {
+  font-size: larger;
+}
+
+.add {
+  font-size: large;
+}

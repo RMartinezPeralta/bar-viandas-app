@@ -1,0 +1,64 @@
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 30%;
+  background: #fff;
+  box-shadow: 0 1rem 1rem rgba(0,0,0, .3);
+}
+
+.title{
+  margin-bottom: 1rem;
+  color: #444;
+  text-align: center;
+}
+
+.wrapper form .register-input{
+  margin-bottom: 1rem;
+}
+
+.wrapper form label{
+  font-size: 1.2rem;
+  display: block;
+  color: #333;
+}
+
+.wrapper form input[type="text"], .wrapper form input[type="password"] {
+  width: 100%;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: 1px solid #ccc;
+}
+
+.btn{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-block {
+  padding: 0.8rem 1.6rem;
+  display: block;
+  width: 100%;
+}
+
+.wrapper p {
+  font-size: 1rem;
+  margin: 1rem auto 0;
+}
+
+.error{
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+}
